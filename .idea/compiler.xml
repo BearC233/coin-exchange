@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway-server" />
-        <module name="coin-common" />
-        <module name="match-api" />
-        <module name="exchange-service" />
-        <module name="chan-api" />
-        <module name="match-service" />
-        <module name="admin-service" />
-        <module name="statistics-api" />
-        <module name="finance-service" />
-        <module name="member-service" />
-        <module name="finance-api" />
-        <module name="exchange-api" />
-        <module name="member-api" />
-        <module name="admin-api" />
-        <module name="authorization-server" />
         <module name="statistics-service" />
+        <module name="finance-service" />
+        <module name="admin-api" />
+        <module name="match-service" />
         <module name="coin-task" />
+        <module name="statistics-api" />
+        <module name="coin-common" />
+        <module name="exchange-service" />
+        <module name="match-api" />
+        <module name="exchange-api" />
+        <module name="authorization-server" />
         <module name="chan-service" />
+        <module name="gateway-server" />
+        <module name="chan-api" />
+        <module name="member-service" />
+        <module name="member-api" />
+        <module name="finance-api" />
+        <module name="admin-service" />
       </profile>
     </annotationProcessing>
   </component>
