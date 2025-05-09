@@ -2,13 +2,13 @@
   {
     "resource": "admin-service-router",
     "resourceMode": 0 ,
-    "count": 5,
+    "count": 500,
     "intervalSec": 60
   },
   {
     "resource": "admin-service-api",
     "resourceMode":"1",
-    "count": 1,
+    "count": 100,
     "intervalSec": 60
   }
 

@@ -11,12 +11,16 @@ import java.util.Set;
 
 @RestController
 public class GatewayRulesController {
-
+/*
+* 获取所有网关限流配置信息
+* */
     @GetMapping("/gateway")
     public Set<GatewayFlowRule> getGatewayFlowRules(){
         return GatewayRuleManager.getRules() ;
     }
-
+    /*
+     * 获取所有api分组信息
+     * */
     @GetMapping("/api")
     public Set<ApiDefinition> getApiGroupRules(){
         return GatewayApiDefinitionManager.getApiDefinitions();
